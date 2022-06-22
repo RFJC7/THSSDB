@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="cn.edu.thssdb.index.BPlusTreeTest" time="0.109" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.1+10-24"/>
+    <property name="sun.boot.library.path" value="C:\Users\LIiu19\.jdks\openjdk-18.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\ThssDB"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ThssDB"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="18.0.1+10-24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LIiu19\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Users\LIiu19\.jdks\openjdk-18.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\MATLAB\R2019b\bin;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;D:\prince\engine\bin;E:\TexLive\texlive\2020\bin\win32;D:\OpenCV\build\x64\vc14\bin;D:\OpenCV\build\x64\vc14\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\LIiu19\miniconda3;C:\Users\LIiu19\miniconda3\Scripts;C:\Users\LIiu19\miniconda3\Library\bin;D:\sqlite-tools-win32-x86-3360000;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\PostgreSQL\13\bin;C:\masm32\include;C:\masm32\lib;C:\masm32\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;D:\;C:\Z3\bin;D:\apache-ant-1.10.12-bin\apache-ant-1.10.12\bin;D:\gradle-7.4.2-all\gradle-7.4.2\bin;C:\Program Files\dotnet\;D:\pythOn\Scripts\;D:\pythOn\;C:\Users\LIiu19\AppData\Local\Microsoft\WindowsApps;F:\大一上\数字娱乐中的媒体技术\大作业\libjpeg-turbo64\bin;F:\大一上\数字娱乐中的媒体技术\大作业\libjpeg-turbo64\lib;D:\OpenCV\build\x64\vc15\bin;D:\Microsoft VS Code\bin;D:\MinGW64\mingw64\bin;D:\MinGW64\mingw64\include;D:\MinGW64\mingw64\bin\lib;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;D:\QT\5.13.0\mingw73_64\bin;D:\OpenCV\build\x64\vc14\bin;D:\PyCharm Community Edition 2021.1.3\bin;;E:\PyCharm 2021.1.3\bin;;C:\Users\LIiu19\AppData\Roaming\npm;D:\mysql-8.0.28-winx64\mysql-8.0.28-winx64\bin;D:\IntelliJ IDEA Community Edition 2021.3.3\bin;;C:\Users\LIiu19\.dotnet\tools;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;;."/>
+    <property name="maven.conf" value="D:\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\LIiu19"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="LIiu19"/>
+    <property name="java.class.path" value="D:\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 install"/>
+    <property name="java.home" value="C:\Users\LIiu19\.jdks\openjdk-18.0.1"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.1"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="cn.edu.thssdb.index.BPlusTreeTest" name="testGet" time="0.04"/>
+  <testcase classname="cn.edu.thssdb.index.BPlusTreeTest" name="testRemove" time="0.019"/>
+  <testcase classname="cn.edu.thssdb.index.BPlusTreeTest" name="testIterator" time="0.05"/>
+</testsuite>
